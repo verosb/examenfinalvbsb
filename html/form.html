@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Contacto</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>  
+    <div class="contenedor">
+        <h1>Formulario Contacto</h1>
+        <div class="contenido">
+            <div class="info">
+                <div class="logo">
+                    <img src="../img/descarga (4).jpg">
+                    </div>
+            </div>
+            <form action="enviado.html" method="GET" class="formulario">
+                <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+                <input type="text" name="correo" placeholder="Correo electróico" id="correo">
+                <input type="text" name="asunto" placeholder="Asunto" id="asunto">
+                <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+                <button type="button" onclick="validarFormulario()" >Enviar</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>

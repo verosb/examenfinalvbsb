@@ -1,0 +1,306 @@
+body{
+    background-color: rgb(46, 129, 206);  
+  }
+  .Contenedor{
+      position: relative;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0.644);
+      width: 1000px;
+      height: 1790px;
+      border: 3px solid rgb(25, 28, 202);
+  }
+  .cabecera{
+      border: 1px solid rgb(25, 28, 202);
+      background-color: aliceblue;
+      margin: auto;
+      margin-top:10px;
+      width: 960px;
+      height: 150px;
+  }
+  #ImgLogo{
+      width: 960px;
+      height: 150px;
+  }
+  #SurrealismoLogo{
+      width: 600px;
+      height: 150px;
+  }
+  .navbarContent{
+      border: 1px solid rgb(25, 28, 202);
+      margin: auto;
+      width: 960px;
+      height: 35px;
+      background-color: aliceblue;
+  }
+  .barraNavegacion{
+      width: 960px;
+      height: 35px;
+      display: block;
+  }
+  .buttonContent{
+      display: block;
+      width: auto;
+      height: 35px;
+      position: relative;
+  }
+  ul {
+      height: 35px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+  }
+  
+  li {
+      float: left;
+      width: auto;
+  }
+  
+  li a {
+      height: 35px;
+      display: block;
+      color: #1b1b1b;
+      text-decoration: none;
+      text-align: center;
+      justify-content: center;
+      padding-top: 5px;
+  }
+  .Inicio{
+      background-color: rgb(82, 202, 166);
+      font-size: larger;
+      font-family: Verdana;
+      font-weight: bold;
+      padding-left: 15.9px;
+      padding-right: 15.9px;
+  }
+  .Inicio:hover{
+      background-color: rgb(23, 245, 178);
+      font-size: larger;
+      font-family: Verdana;
+      font-weight: bold;
+      padding-left: 15.9px;
+      padding-right: 15.9px;
+  }
+  .Galeria{
+      background-color: rgb(255, 137, 202);
+      font-size: larger;
+      font-family: Verdana;
+      font-weight: bold;
+      padding-left: 16px;
+      padding-right: 16px;
+  }
+  .Galeria:hover{
+      background-color: rgb(255, 87, 179);
+      font-size: larger;
+      font-family: Verdana;
+      font-weight: bold;
+      padding-left: 16px;
+      padding-right: 16px;
+  }
+  .Autores{
+      background-color: rgb(110, 149, 255);
+      font-size: larger;
+      font-family: Verdana;
+      font-weight: bold;
+      padding-left: 37.2px;
+      padding-right: 34px;
+  }
+  .Autores:hover{
+      background-color: rgb(62, 111, 245);
+      font-size: larger;
+      font-family: Verdana;
+      font-weight: bold;
+      padding-left: 37.2px;
+      padding-right: 34px;
+  }
+  .Historia{
+      background-color: rgb(255, 238, 139);
+      font-size: larger;
+      font-family: Verdana;
+      font-weight: bold;
+      padding-left: 37.4px;
+      padding-right: 34px;
+  }
+  .Historia:hover{
+      background-color: rgb(255, 229, 79);
+      font-size: larger;
+      font-family: Verdana;
+      font-weight: bold;
+      padding-left: 37.4px;
+      padding-right: 34px;
+  }
+  #textoHistoria{
+      text-align: left;
+  }
+  .Registrate{
+      background-color: rgb(255, 137, 137);
+      font-size: larger;
+      font-family: Verdana;
+      font-weight: bold;
+      padding-left: 37.4px;
+      padding-right: 36.55px;
+  }
+  .Registrate:hover{
+      background-color: rgb(255, 66, 66);
+      font-size: larger;
+      font-family: Verdana;
+      font-weight: bold;
+      padding-left: 37.4px;
+      padding-right: 36.55px;
+  }
+  .seccion1{
+      border: 1px solid rgb(25, 28, 202);
+      margin: auto;
+      width: 960px;
+      height: auto;
+      background-color: aliceblue;
+      margin-top: 10px;
+  }
+  .contenidoContent{
+      display: flex;
+      margin: auto;
+      margin-top: 15px;
+      width: 940px;
+      height: 200px;
+      background-color: aqua;
+  }
+  .imgglogo{
+      display: flex;
+      width: 200px;
+      height: 200px;
+  }
+  .Textotitulo{
+      background-color: #F7DC6F;
+      width: 750px;
+      height: 200px;
+      display: inline-block;
+      left: 50000px;
+      text-align: center;
+      font-family: cursive;
+}
+.Textotitulo:hover{
+    background-color: #d4b434;
+    width: 750px;
+    height: 200px;
+    display: inline-block;
+    left: 50000px;
+    text-align: center;
+    font-family: cursive;
+}
+  .Frase{
+    position: relative;
+      background: #2193b0;  
+      background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  
+      background: linear-gradient(to right, #6dd5ed, #2193b0); 
+      width: 940px;
+      height: 782px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      text-align: justify;
+      margin: auto;
+      font-size: 18px;
+    }
+    #tituloA{
+        font-family: cursive;
+        text-align: center;
+  }
+  .contentTemas{
+      width: 940px;
+      height: 340px;
+      margin: auto;
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+    }
+  .conttt{
+      border-radius: 10px;
+      background-color:#76b8e4;
+      width: 300px;
+      height: 305px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      display: inline-block;
+      text-align: center;
+  }
+  .hh{
+      width: 250px;
+      height: 250px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      position: relative;
+      top: 15px;
+  }
+  .noche{
+      margin-top: 22px;
+     font-family: sans-serif;
+  }
+  .PiePag{
+      display: flex;
+      align-content: flex-end;
+      border: 1px solid rgb(25, 28, 202);
+      margin: auto;
+      width: 960px;
+      height: 130px;
+      background-color: rgb(34, 33, 33);
+      margin-top: 10px;
+  }
+  
+  .SocialMedia{
+      position: relative;
+      width: 200px;
+      height: 130px;
+      left: 100px;
+      top: -10px;
+      color: rgb(236, 234, 234);
+  }
+  .tmnSocialMedia{
+      position: relative;
+      top: -10px;
+  }
+  .imgRedes{
+      position: relative;
+      display: block;
+      margin-bottom: 10px;
+      width: 30px;
+      height: 30px;
+  }
+  .txtrede{
+      position: relative;
+      display: block;
+      top: -88px;
+      left: 35px;
+  }
+  .contactanos{
+      position: relative;
+      width: 200px;
+      height: 130px;
+      left: 300px;
+      top: -10px;
+      color: rgb(236, 234, 234);
+  }
+  .tmncnt{
+      position: relative;
+      top: -10px;
+  }
+  .imgcd{
+      position: relative;
+      display: block;
+      margin-bottom: 10px;
+      width: 30px;
+      height: 30px;
+  }
+  .txtcd{
+      position: relative;
+      display: block;
+      top: -88px;
+      left: 35px;
+  }
